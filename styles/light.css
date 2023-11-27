@@ -4,14 +4,6 @@
   переключая тему
 */
 :root.theme-light {
-  --background-color: #FFF1F7;
-  --accent-color: #FF8DCB;
-  --title-color: #FFC2E6;
-  --decorated-element-color: #353430;
-  --text-color: #353430;
-  --paragraph-text-color: #353430;
-  --section-title-color: #353430;
-  --background-image: url(../images/cover-image-light.png);
 }
 
 
@@ -19,25 +11,16 @@
   --background-color: #FFF1F7;
   --accent-color: #FF8DCB;
   --title-color: #FFC2E6;
-  --decorated-element-color: #353430;
-  --text-color: #353430;
+  --header-decorated-element-color: #FFF1F7;
+  --article-title-color: #353430;
   --paragraph-text-color: #353430;
-  --section-title-color: #353430;
+  --decorated-element-color: #353430;
+  --button-border-color: rgba(53, 52, 48, 0.4);
   --background-image: url(../images/cover-image-light.png);
+  --text-color: #353430;
 }
 
-@media (prefers-color-scheme:light) {
-  :root {
-    --background-color: #FFF1F7;
-    --accent-color: #FF8DCB;
-    --title-color: #FFC2E6;
-    --decorated-element-color: #353430;
-    --text-color: #353430;
-    --paragraph-text-color: #353430;
-    --section-title-color: #353430;
-    --background-image: url(../images/cover-image-light.png);
-  }
-}
+
 
 
 

@@ -4,17 +4,6 @@
   переключая тему
 */
 :root.theme-dark {
-  --background-color: #000028;
-  --accent-color: #FF0070;
-  --title-color: #DB00FF;
-  --section-title-color: #FF0070;
-  --paragraph-text-color: #F1B2CE;
-  --decorated-element-color: #FF0070;
-  --background-image: url(../images/cover-image-dark.png);
-  --text-color: #000028;
-  --font-family: 'IBM Plex mono';
-  --font-size: 18px;
-  --line-height: 23.4px;
 }
 
 
@@ -22,9 +11,26 @@
   --background-color: #000028;
   --accent-color: #FF0070;
   --title-color: #DB00FF;
-  --section-title-color: #FF0070;
+  --header-decorated-element-color: #FF0070;
+  --article-title-color: #FF0070;
   --paragraph-text-color: #F1B2CE;
   --decorated-element-color: #FF0070;
-  --text-color: #000028;
+  --button-border-color: rgba(255, 0, 112, 0.4);
   --background-image: url(../images/cover-image-dark.png);
+  --text-color: #000028;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --background-color: #000028;
+  --accent-color: #FF0070;
+  --title-color: #DB00FF;
+  --header-decorated-element-color: #FF0070;
+  --article-title-color: #FF0070;
+  --paragraph-text-color: #F1B2CE;
+  --decorated-element-color: #FF0070;
+  --button-border-color: rgba(255, 0, 112, 0.4);
+  --background-image: url(../images/cover-image-dark.png);
+  --text-color: #000028;
+  }
 }
